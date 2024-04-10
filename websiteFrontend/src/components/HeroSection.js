@@ -14,7 +14,7 @@ function HeroSection() {
   };
   const [typedText, setTypedText] = useState("");
   const [cursorVisible, setCursorVisible] = useState(true);
-  const originalText = "Noman Tashreef MERN Stack Developer";
+  const originalText = "Gives hands on experience|";
   const typingSpeed = 100; // Adjust typing speed as needed
   const cursorBlinkInterval = 500; // Adjust cursor blink speed as needed
   useEffect(() => {
